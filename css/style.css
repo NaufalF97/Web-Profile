@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'roboto';
+    font-size: 25px;
+}
+
+header {
+    background-color: #3d3d3d;
+    height: 70px;
+    opacity: 0.74;
+    box-shadow: 0px 3px 6px #00000029;
+    align-items: center;
+    display: flex;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav .nav-link {
+    color: #ffffff;
+    opacity: 1 !important; 
+}
+
+.nav .nav-link:hover {
+    color: #dddddd;
+}
+
+/* Banner */
+.banner {
+    box-sizing: border-box;
+    height: 768px;
+    position: relative;
+    padding: 0 1.5rem;
+}
+
+.banner > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+
+.banner h1 {
+    font-family: 'sunglass';
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 160px;
+    margin-right: 30px;
+}
+
+.banner h3 {
+    display: inline-block;
+    font: 'roboto';
+    font-style: italic;
+    color: #ffffff;
+}
+
+.fa-chevron-circle-down {
+    position: relative;
+    margin-left: -180px;
+    top: 40px;
+    color: #ffffff;
+}
+
+.fa-chevron-circle-down:hover {
+    color: #a9eeee;
+}
+
+/* Profile */
+.profile,
+.background,
+.ability {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profile h1,
+.background h1,
+.ability h1 {
+    font-family: 'roboto';
+    font-size: 70px;
+    font-weight: 300;
+    color: #67C5CF;
+    text-decoration: underline 2px;
+    text-decoration-color: #ceccce;
+}
+
+.profile-photo {
+    border: 10px solid #F0EFF0;
+    border-radius: 50px;
+}
+
+.profile p {
+    font-family: 'roboto';
+    font-size: 25px;
+    font-weight: lighter;
+    color: #817F80;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.profile h3,
+.background h3,
+.ability h3 {
+    color: #67C5CF;
+    font-weight: 300;
+    margin-top: 1.5em;
+}
+
+.profile .row div {
+    text-align: right;
+}
+
+.profile .row > div:nth-child(2n)::before {
+    content: ":";
+    position: relative;
+    left: -15px;
+    font-weight: 500;
+}
+
+.profile .row > div:nth-child(2n) {
+    font-weight: 300;
+    text-align: left;
+}
+
+.main hr {
+    width: 50%;
+    position: relative;
+    margin: 0 auto 30px;   
+    background: #67C5CF;
+    border-width: 3px; 
+}
+
+.background .row > div {
+    text-align: left;
+    padding-left: 200px;
+    margin-top: 10px;
+}
+
+.background .row > div:nth-child(2n) {
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.background p {
+    font-weight: 300;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 0;
+    text-align: center;
+    background: #F0EFF0 ;
+}
+
+footer h1 {
+    font-weight: 300;
+    font-size: 70px;
+    color: #67C5CF;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+    margin: 20px 30px;
+    text-decoration: none;
+    color: #807F80;
+    font-size: 0.8em;
+}
